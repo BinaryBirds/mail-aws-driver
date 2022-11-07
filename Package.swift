@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/binarybirds/mail-kit.git", from: "0.0.1"),
-        .package(url: "https://github.com/soto-project/soto.git", from: "5.11.0"),
+        .package(url: "https://github.com/soto-project/soto.git", from: "6.2.0"),
     ],
     targets: [
         .target(name: "MailAwsDriver", dependencies: [
